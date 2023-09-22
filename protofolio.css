@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.port{
+    text-align: center; 
+    font-family: "Times New Roman", Times, serif;
+    color:rgb(138, 117, 86);
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    background-color: rgb(70, 66, 66);
+    padding: 10px;
+}
+
+.logo {
+    width: 35px;
+    margin-left: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.menu ul {
+    gap: 1rem;
+    margin-right: .5rem;
+}
+
+.menu ul li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: rgb(195, 255, 0);
+}
+.st{
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(247, 117, 117);
+}
+.info {
+    height: 350px;
+    max-width: 100vw;
+    background-color: rgb(207, 31, 72);
+    /* text-align: center; */
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.name{
+    font-family: "Times New Roman", Times, serif;
+}
+.info h1 {
+    font-size: 3.2rem;
+    padding-top: 50px;
+    padding-left: 320px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.person-photo {
+    flex: 1;
+    padding: 20px;
+}
+
+.person-photo img {
+    max-width: 500px;
+    height: 325px;
+    border-radius: 15px;
+    padding-right: 0%;
+    border-right: 0;
+}
+
+.person-info {
+    flex: 2;
+    padding: 20px;
+}
+
+.person-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.person-info p {
+    margin-bottom: 10px;
+}
+
+.infotext {
+    color: rgb(0, 102, 255); 
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid white;
+    width: 0;
+    font-size: 1.2rem;
+    animation: typing 3s steps(40, end) forwards;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    } to {
+        width: 100%;
+    }
+}
+
+.heading h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(154, 127, 86);
+}
+/* CSS for Projects */
+.proj{
+    background-color: #f0f0f0;
+    width: 100%;
+}
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    gap: 5px;
+    cursor: pointer;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.project {
+    background-color: #fff;
+    text-align: center;
+    width: 33%;
+    border : 1px solid black;
+    border-radius: 10px;;
+}
+
+.project img {
+    width: 100%;
+    height: 75%;
+    border-radius: 10px;
+}
+
+.project h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(134, 107, 74);
+}
+
+.project p {
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.project a {
+    text-decoration: none;
+    color: #007bff; 
+    margin-top: -5px;
+    margin-bottom: 5px;
+    font-family:cursive;
+}
+/* CSS for Social Media Icons */
+.social-media{
+    background-color: rgb(70, 66, 66);
+    max-width: 100%; /* Optional: Adjust the width of the container */
+    height: 100px; /* Optional: Center vertically within the viewport */
+    border-radius: 5px;
+}
+
+.social-media h1{
+    text-align: center;
+    font-family: cursive;
+    color: black;
+}
+.social-media-icons {
+    display: flex;
+    justify-content: center; /* Horizontally center items */
+    align-items: center; /* Vertically center items */
+}
+
+.social-media-icons a {
+    margin-right: 20px; /* Adjust spacing between icons */
+    text-decoration: none;
+    padding-bottom: 0;
+}
+
+.social-media-icons img {
+    width: 50px; /* Adjust the icon size as needed */
+    height: 50px; /* Adjust the icon size as needed */
+    border-radius: 50%;
+    padding-bottom: 0;
+    /*marg */
+}
+.cnt{
+    padding-top: 0;
+    border-top: 0;
+}
